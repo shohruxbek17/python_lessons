@@ -1,0 +1,33 @@
+1-savol
+
+import random
+
+def user_name():
+
+    
+
+    name = input(str("Enter your name: "))
+
+    name = list(name)
+
+    random.shuffle(name)
+
+    num = []
+
+    for i in range(0,10):
+
+        num.append(i)
+
+
+
+    choice_num = random.choice(num)
+
+    name.append(str(choice_num))
+
+   
+
+    return(''.join(name))
+
+2-savol
+
+print(sum(map(lambda x: int(x), list(input("Enter nums:")))))
